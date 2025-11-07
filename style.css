@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0;
+  text-decoration: none;
+  color: #003366;
+ }
+ #front{
+   background: #f0f8ff;
+    }
+ #mainAria{
+   padding: 20px 15px;
+   
+ }
+ 
+ #header {
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   background: #003366 ;
+   gap: 10px;
+   padding-left: 8px;
+ }
+ 
+#header a {
+  color:  #f0f8ff;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+#cutout  h1{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+#cutout p {
+  font-size: 15px;
+  font-weight: 500;
+}
+#cutout {
+  height: 450px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+
+}
+
+#form {
+  height: 400px;
+  width: 300px;
+  background:  #f0f8ff;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #003366;
+  border-radius: 20px;
+  overflow: auto;
+}
+label, input, select {
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  background:  #f0f8ff;
+  margin: 4px auto;
+  
+  
+  }
+  #form h1 {
+    border-bottom: 1px dashed #003366;
+    text-align: center;
+  }
+  
+input, select{
+  border: 1px solid black;
+}  
+button {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px;
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+  color:  #f0f8ff;
+  background: #003366;
+  border: 2px solid #003366;
+  border-radius: 999px;
+}
+button:hover{
+  background:  #f0f8ff;
+  color: #003366;
+}
+
+
+#footer {
+  height: 150px;
+  background: #003366;
+  padding: 10px;
+  margin-top: 40px;
+}
+#footer p {
+  color:  #f0f8ff;
+  font-size: 15px;
+  text-align: center;
+  
+ }
+ #png img {
+   width: 100%;
+   
+ }
+ 
+ #marksheet {
+  width: 90vw;
+  height: auto;
+  background: aliceblue;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+#schoolName {
+  width: 80%;
+  margin: 2px auto;
+  text-align: center;
+  border: 2px solid #003366;
+  border-radius: 999px;
+  padding-top: 3px;
+  margin: 10px auto;
+}
+#information {
+  margin-left: 20px;
+}
+
+#information h2 ,#information p{
+  font-size: 10px;
+  display: inline-block;
+  
+}
+
+.marksheet {
+  width: 100%;
+  background: aliceblue;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+}
+
+/* Header line for Subject - Mark */
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #004080;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+.subject-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.subject-row:last-child {
+  border-bottom: none;
+}
+
+.subject-row span {
+  font-weight: bold;
+  text-align: right;
+}
+
+#result {
+  border-top: 3px solid  #003366;
+  padding: 10px 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.percentage {
+  border-top: 1px solid  #003366;
+  padding: 10px 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 15px;
+}
+ 
+ 
+  /* 
+  media quary for laptop , computer etc.
+   */
+ @media (orientation:landscape){
+   
+    #png  {
+       width: 50%;
+       
+     } 
+     #png img {
+       width: 100%;
+     }
+     
+    #details  {
+      display: inline-block;
+      width: 50%;
+      align-self: center;
+    }
+    
+    #cutout h1 {
+      font-size: 40px;
+      margin: 5px auto;
+    }
+    #cutout p {
+      font-size: 25px;
+    }
+    
+    #cutout{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      height: 500px;
+    }
+    #footer p{
+      font-size: 30px;
+    }
+    #footer{
+      height: 300px;
+    }
+    button {
+      width: 500px;
+      font-size: 30px;
+      margin: 30px auto;
+      padding: 10px;
+    }
+   #form {
+    height: 700px;
+    width: 550px;
+    
+ }
+ label, input, select {
+   font-size: 30px;
+ 
+   
+  }
+  #header {
+    height: 60px;
+    gap: 15px;
+  }
+  #header a {
+    font-size: 25px;
+  }
+
+
+ }
+ 
+
